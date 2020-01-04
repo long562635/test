@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 
 public class TestLogin extends HttpServlet {
 	List<String> lists;
-	
+	String str;
 	public List<String> getLists() {
 		return lists;
 	}
